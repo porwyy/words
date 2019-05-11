@@ -22,17 +22,17 @@ public class Test extends JFrame{  //0.继承JFrame
         jButton3 = new JButton("西边");
         jButton4 = new JButton("东边");
         jButton5 = new JButton("南边");
-        
-        //3. 添加各个组件
-//        this.add(jButton, BorderLayout.CENTER);  //布局的中间
-//        this.add(jButton2, BorderLayout.NORTH);  //布局的北边
-        this.add(jButton3, BorderLayout.WEST);   //布局的西边
-        this.add(jButton4, BorderLayout.EAST);   //布局的东边
         this.add(jButton5, BorderLayout.SOUTH);  //布局的南边
+        //3. 添加各个组件
+        this.add(jButton, BorderLayout.CENTER);  //布局的中间
+        this.add(jButton2, BorderLayout.NORTH);  //布局的北边
+//        this.add(jButton3, BorderLayout.WEST);   //布局的西边
+//        this.add(jButton4, BorderLayout.EAST);   //布局的东边
+        
         
         //4. 设置窗体属性
         this.setTitle("演示边界布局管理器");
-        this.setSize(200, 100);
+        this.setSize(300, 500);
         this.setLocation(200, 200);
         this.setVisible(true);
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
